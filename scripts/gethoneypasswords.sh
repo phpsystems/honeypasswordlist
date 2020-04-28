@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
 # Setup SSH Keys for the tsec user for this to work. 
 # Also, set up the git repo before hand as well. Both with SSH keys, for the win :-)
