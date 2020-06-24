@@ -7,7 +7,7 @@ yesterday = d.strftime('%Y.%m.%d')
 es = Elasticsearch(
     ['localhost'],
     http_auth=('username', 'password'),
-    scheme="https",
+    scheme="http",
     port=64298,
     maxsize=1000
 )
